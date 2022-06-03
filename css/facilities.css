@@ -1,0 +1,74 @@
+@import url(./common.css);
+
+/* facilities */
+.facilities{
+    width: 100%;
+    position: relative;
+}
+.facilities > img{
+    width: 100%;
+}
+.facilities > h2{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    position: absolute; left: 45% ; top: 50%;
+}
+
+/* style */
+.style{text-align: center;}
+.style > div{
+    position: relative;
+}
+.style > div > h2{
+    font-size: 60px; margin-top: 6%; margin-bottom: 0;
+}
+.style > div > b{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3%;
+    color: #C3C65A;
+}
+
+/* coffee */
+.coffee{
+
+}
+.coffee > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.coffee > ul:nth-child(2){
+    margin-bottom: 200px;
+}
+.coffee > ul > li > img{
+    width: 450px; height: 350px;
+    border-radius: 15px;
+}
+.coffee > ul > li > div{
+    position: absolute; top:0%;
+    background-color: rgba(196, 196, 196, 0.5);
+    width: 450px; height: 350px;
+    border-radius: 15px;
+    z-index: 2;
+    padding: 40px;
+    opacity: 0;
+}
+.coffee > ul > li > div > p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(68, 58, 20, 1);
+    margin-bottom: 20px;
+    
+}
+.coffee > ul > li > div > span{
+    border: 1px solid rgba(68, 58, 20, 0.5);
+    padding: 10px;
+}
+.coffee > ul > li > div > span > a{
+    color: rgba(0, 0, 0, 0.6);
+}
+.coffee > ul > li:hover > div{
+    opacity: 1;
+}

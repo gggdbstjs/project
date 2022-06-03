@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+html,body{margin: 0; font-size: 13px;}
+
+ul,li{list-style: none; margin: 0; padding: 0;}
+
+a{text-decoration: none;}
+
+p{margin: 0; padding: 0;}
+
+*{box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+img{
+    vertical-align: top;
+}
+
+/* header */
+header{
+padding: 30px 0; margin-bottom: 15px;
+width: 100%;
+height: 120px;
+position: fixed;
+background-color: aliceblue;
+z-index: 3;
+}
+header h1{
+    margin-left: 5%; top:15%;
+    position: absolute;
+}
+header > div{
+    width: 100%; margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.replay{
+    position: absolute;
+    left: 14%; top:38%;
+    font-weight: bold;
+}
+header > div > nav{
+    margin-left: 35%;
+    width: 60%;
+}
+header > div > nav > ul{
+    display: flex;
+}
+header > div > nav > ul > li{
+    position: relative;
+}
+header > div > nav > ul > li > a{
+    display: inline-block;
+    padding: 15px 2.5vw;
+    text-transform: uppercase;
+    color: black;
+    vertical-align: top;
+    font-size: 20px;
+}
+header > div > nav > ul > li > div{
+    position: absolute; left: 0; bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    display: none;
+    z-index: 2;
+}
+header > div > nav > ul > li > div > a{
+    display: block;
+    color: white;
+    text-align: center;
+}
+header > div > nav > ul > li:hover > div{
+    display: block;
+}
+header > div > nav > ul > li:nth-child(6){
+    position: absolute; right: 8%; top: 20.5%;
+}
+.top{
+    position: absolute;
+    width: 10%;
+    top: 5%; left: 85%;
+}
+.top > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top > ul > li > a{
+    color: rgba(0, 0, 0, 0.5);
+}
+.top > ul > li > button{
+    color: rgba(0, 0, 0, 0.5);
+    border: 0;
+    background: 0;
+    cursor: pointer;
+    position: absolute;
+    font-size: 12px;
+    left: 30%; top: 5%;
+}
+.popup > h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.popup > button{
+    position: absolute;
+    right: 5%; top: 5%;
+}
+.popup > ul{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.popup > ul > li{
+    margin-bottom: 30px;
+}
+.popup > ul > li > label{
+    font-weight: bold;
+}
+.popup > ul > li:nth-child(1) > input{
+    position: absolute;
+    left: 30%;
+}
+.popup > ul > li:nth-child(2) > input{
+    position: absolute;
+    left: 30%;
+}
+
+
+
+/* footer */
+
+footer{
+    background: #321616;
+    position: relative;
+    display: block;
+    position: relative;
+    padding: 20px;
+}
+footer > a > img{
+    position: absolute; left: 47%; bottom: 100%;
+    width: 100px;
+}
+
+.info{text-align: center;}
+.info > h2{
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    
+}
+.info > p{
+    color: #887676;
+}
+.info > p > span{
+    font-weight: bold;
+}
+
+.quick{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.quick > b{
+    font-size: 30px; color: white;
+}
+.quick > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 60%;
+    margin-left: 300px;
+    color: #887676;   
+}
+.quick > ul > li{}
+.quick > ul > li > a{
+    color: #887676;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 10px;
+}
+.contact > b{font-size: 30px; color: white;}
+.contact > p{
+    color: #887676;
+}

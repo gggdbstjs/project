@@ -1,0 +1,106 @@
+@import url(./common.css);
+
+/* travel */
+.travel{
+    width: 100%;
+    position: relative;
+}
+.travel > img{
+    width: 100%;
+}
+.travel > h2{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    position: absolute; left: 45% ; top: 50%;
+}
+
+/* style */
+.style{text-align: center;}
+.style > div{
+    position: relative;
+}
+.style > div > h2{
+    font-size: 60px; margin-top: 6%; margin-bottom: 0;
+}
+.style > div > b{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3%;
+    color: #BC4C4C;
+}
+
+/* menu */
+.menu > ul{
+    margin: 80px;
+    margin-top: 150px;
+    
+}
+.menu > ul > li{
+    display: block;
+    margin: 10px;
+    position: relative;
+}
+.menu > ul > li > button > img{
+    width: 200px;
+    height: 150px;
+}
+.menu > ul > li > img{
+    width: 200px;
+    height: 150px;
+}
+.menu > ul > li > div {
+    width: 50%;
+    position: absolute; left: 28%;top: 0%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.menu > ul > li > div > b{
+    display: inline;
+    width: 400px; height: 350px;
+    text-align: center;
+}
+.menu > ul > li > div > img{
+    margin-top: 40px;
+}
+.menu > ul > li > div > p{
+    margin: 50px;
+}
+.menu > ul > li > div > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu > ul > li > div > ul > li > img{
+    width: 300px; height: 275px;
+}
+
+.menu > ul > li > div{
+    opacity: 0;
+}
+.menu > ul > li:nth-child(2) > div{
+    transform: translateY(-14.2%);
+}
+.menu > ul > li:nth-child(3) > div{
+    transform: translateY(-28.4%);
+}
+.menu > ul > li:nth-child(4) > div{
+    transform: translateY(-42.6%);
+}
+.menu > ul > li:nth-child(5) > div{
+    transform: translateY(-56.8%);
+}
+.menu > ul > li:nth-child(6) > div{
+    transform: translateY(-71%);
+}
+.menu > ul > li:nth-child(7) > div{
+    transform: translateY(-85.2%);
+}
+.menu > ul > li:nth-child(8) > div{
+    transform: translateY(-99.4%);
+}
+.menu > ul > li:active > div{
+    opacity: 1;
+    
+}

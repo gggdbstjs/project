@@ -1,0 +1,106 @@
+@import url(./common.css);
+
+/* rooms */
+.rooms{
+    width: 100%;
+    position: relative;
+}
+.rooms > img{
+    width: 100%;
+}
+.rooms > h2{
+    font-size: 50px;
+    color:rgb(255, 255, 255);
+    position: absolute; left: 45% ; top: 50%;
+}
+
+/* style */
+.style{text-align: center;}
+.style > div{
+    position: relative;
+    margin-bottom: 10%;
+}
+.style > div > h2{
+    font-size: 60px; margin-top: 6%; margin-bottom: 0;
+}
+.style > div > b{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3%;
+    color: #57244C;
+}
+
+/* view */
+.view{
+    position: relative;
+
+}
+.view > img{
+    width: 70%;
+    border-radius: 15px;
+}
+.view > div{
+    background: rgba(50, 22, 22, 0.8);
+    width: 20%; height: 762px; 
+    border-radius: 15px;
+    position: absolute; top: 0%; left: 65%;
+}
+.view > div > p{
+    color: white;
+    font-size: 18px;
+    margin-top: 40%;
+}
+.view > div > p > span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.view > div > a{
+    border: 1px solid rgba(255,255,255, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    position: absolute; top:55%; right: 35%;
+}
+
+/* select */
+.select{
+    width: 50%;
+    position: relative; 
+    margin: 8%;
+    margin-bottom: 10%;
+}
+.number{
+    margin-left: 25%;
+    width: 50%;
+    background-color: rgba(50, 22, 22, 0.5);
+}
+.select > div:nth-child(2){
+    position: absolute;
+    left: 68%;
+    top: 0%;
+}
+.number > b{
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.number > b > span{
+    font-size: 30px;
+}
+.number > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.number > ul > li{
+    text-align: center;
+    width: 80px;
+    margin: 20px; margin-bottom: 30px;
+
+}
+.number > ul > li > a{
+    font-size: 20px;
+    background-color: #C4C4C4;
+    color: rgb(255, 255, 255);
+    padding:10px;
+}
